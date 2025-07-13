@@ -32,4 +32,28 @@ const myfunction = function() {
     
 }
 
-console.log(typeof myArray);
+// console.log(typeof myArray);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+let userName = "Sagar"
+
+let anotherUserName = userName;
+
+anotherUserName = "Mike"
+
+console.log(userName);
+console.log(anotherUserName);
+
+const userDetails = {
+    name : "Latham",
+    age : 35
+}
+
+const anotherUserDetails = userDetails;
+
+anotherUserDetails.age = 50;
+
+console.log(userDetails.age);
+console.log(anotherUserDetails.age);
