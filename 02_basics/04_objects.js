@@ -21,8 +21,8 @@ const obj2 = { 3 : "C" , 4 : "D"}
 // const obj3 = {...obj1,...obj2}
 const obj3 = Object.assign(obj1,obj2)
 
-console.log(obj3);
-console.log(obj1);
+// console.log(obj3);
+// console.log(obj1);
 
 user.name = "Sagar";
 user.emailId = "Same@google.com"
@@ -34,7 +34,21 @@ user.isLoggedIn = false
 // console.log(Object.values(user))
 // console.log(Object.entries(user))
 
-console.log(user.hasOwnProperty('emailId'));
+// console.log(user.hasOwnProperty('emailId'));
+
+const myNewObj = {
+    name : "Sagar",
+    age : 22,
+    courseInstructor : "SagarRam"
+}
+
+// console.log(myNewObj.courseInstructor);
+
+const {courseInstructor: instructor} = myNewObj
+
+console.log(instructor);
+
+
 
 
 
